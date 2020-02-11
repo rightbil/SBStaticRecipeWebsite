@@ -1,0 +1,25 @@
+.leftpanel {
+    background:burlywood;
+    border-color: green;
+    border-spacing: 10px;
+}
+
+.centerpanel {
+    background: beige;
+    border: 10px;
+    border-color: brown;
+}
+
+.rightpanel {
+    background: purple;
+
+}
+
+.footer {
+    background: brown;
+
+
+}
+.floattoright{
+    float: right;
+}
