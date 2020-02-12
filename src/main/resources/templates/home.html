@@ -1,131 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link type="text/css" href="../main.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
 
-<body>
-<div row>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><b>Doro Wat recipe </b></a>
-<!--   <button class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>-->
+        <a class="navbar-brand" href=""> <img src="https://picsum.photos/seed/picsum/200/300" height="25px" width="25px"
+                                              img circle><b>Doro Wat recipe </b></a>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/recipelist">Recipe List</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"
-                   href="#"
-                   id="navbarDropdown"
-                   role="button"
-                   data-toggle="dropdown"
-                   aria-haspopup="true"
-                   aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/recipelist">Recipe List</a>
-                    <a class="dropdown-item" href="/contact">Contact</a>
-                    <a class="dropdown-item" href="/recipelist">About</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">upcoming....</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">login</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/recipelist">Recipe Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Recipe List
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/recipelist">Recipe List</a>
+                        <a class="dropdown-item" href="#">Recipe One</a>
+                        <a class="dropdown-item" href="#">Recipe Two</a>
+                        <a class="dropdown-item" href="#">Recipe Three</a>
+                        <a class="dropdown-item" href="#">Recipe Four</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">other....</a>
+                        <a class="dropdown-item disabled" href="#">upcoming....</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Log out</a>
+                </li>
+            </ul>
+    </nav>
 </div>
+
 <div class="container ">
+    <div class="row">
+        <div class="col-sm-3">
+            <b>Near by restaurant </b>
+            <hr>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Restaurant Search</button>
+            </form>
+        </div>
 
-<div class="row">
-    <div class="col-sm-3 col-md-3 col-lg-3">
-        <div class="leftpanel"><b>Near by restaurant </b></div>
-        <ul>
-            <li>Lucy Restaurant</li>
-            <li>upcoming--- </li>
-        </ul>
-
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-6">
-        <div class="centerpanel">
+        <div class="col-sm-6">
             <ol>
                 <li>Combine the lemon juice and salt in a large, nonreactive mixing bowl and stir until slightly
-                    dissolved. Add the chicken thighs, one at a time, dipping both sides of each piece in the
-                    marinade to coat. Cover and allow to marinate in the refrigerator for about 30 minutes.
+                    dissolved. Add the chicken thighs, one at a time, dipping both sides of each piece in the marinade
+                    to coat. Cover and allow to marinate in
+                    the refrigerator for about 30 minutes.
                 </li>
-                <li>While the chicken is marinating, purée the onions, garlic and ginger in a food processor or
-                    blender. Add a little water, if necessary, to get the blades moving.
+                <li>While the chicken is marinating, purée the onions, garlic and ginger in a food processor or blender.
+                    Add a little water, if necessary, to get the blades moving.
                 </li>
-                <li>Heat the butter in a Dutch oven over medium heat and stir in the paprika to color the oil. Stir
-                    in the berbere paste and cook for 3 minutes, until heated through. Add the onion mixture and
-                    sauté until most of the moisture evaporates and the mixture reduces, about 15 minutes.
-                <li>Pour in the stock and wine, add cayenne to taste and season with salt and pepper. Remove the
-                    chicken from the lemon juice and discard the marinade. Add the chicken to the pot and cover with
-                    sauce. Bring the sauce to a boil, reduce the heat to low, cover and simmer for 45 minutes,
-                    flipping the chicken halfway through. Add water, if necessary, to maintain the liquid level.
+                <li>Heat the butter in a Dutch oven over medium heat and stir in the paprika to color the oil. Stir in
+                    the berbere paste and cook for 3 minutes, until heated through. Add the onion mixture and sauté
+                    until most of the moisture evaporates
+                    and the mixture reduces, about 15 minutes.
+                <li>Pour in the stock and wine, add cayenne to taste and season with salt and pepper. Remove the chicken
+                    from the lemon juice and discard the marinade. Add the chicken to the pot and cover with sauce.
+                    Bring the sauce to a boil, reduce
+                    the heat to low, cover and simmer for 45 minutes, flipping the chicken halfway through. Add water,
+                    if necessary, to maintain the liquid level.
                 </li>
                 <li>Add the whole hard-boiled eggs and continue to cook until the chicken is very tender, 10 to 15
                     minutes. Adjust seasoning and serve hot with injera bread or rice.
                 </li>
             </ol>
         </div>
-    </div>
-    <div class="col-sm-3 col-md-3 col-lg-3">
 
-        <form border="2px">
-            <div class="rightpanel">member login</div>
-            <div class="form-group row" margin="10px">
-
+    <div class="col-sm-3">
+        <form>
+            <div class="form-group">Member login</div>
+            <div class="form-group">
                 <label for="inputfirstName" class="col-sm-4 col-form-label">Frist Name </label>
-
-                <input type="text" class="form-control" id="inputfirstname" placeholder="Name">
-
-
-                <label for="inputemail" class="col-sm-4 col-form-label">Email</label>
-
-                <input type="email" class="form-control" id="inputemail" placeholder="Email">
-            </div>
-
-            <div class="form-group row">
-                <div class="col-sm-10 offset-sm-4">
-                    <button type="submit" class="btn btn-primary">Sing in</button>
+                <input type="text" class="form-control" id="inputfirstname" placeholder="Full Name">
+                <div class="form-group">
+                    <label for="inputemail" class="col-sm-4 col-form-label">Email</label>
+                    <input type="email" class="form-control" id="inputemail" placeholder="Email">
                 </div>
-            </div>
 
+                <div class="form-group row">
+                    <div class="col-sm-10 offset-sm-4">
+                        <button type="submit" class="btn btn-primary">Sing in</button>
+                    </div>
+                </div>
         </form>
     </div>
-    <div class="row">
     </div>
-    <div class="col-sm-12 col-md-12 col-lg-12">
-        <div class="footer">footer</div>
-    </div>
+    <footer>
+        <div class="container">
+            <div class="row vcenter">
+                <div class="col-xs-6">
+                    <p>Copyright &copy;2020 MontgomeryCollege</p>
+                </div>
+                <div class="col-xs-6">
+                    <div class="pull-right">
+                        <a href="#"><i class="fa fa-twitter-square fa-icon"></i></a>
+                        <a href="#"><i class="fa fa-skype fa-icon"></i></a>
+                        <a href="#"><i class="fa fa-facebook-square fa-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -137,4 +148,5 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
