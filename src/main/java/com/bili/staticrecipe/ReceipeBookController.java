@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ReceipeBookController {
     @RequestMapping("/")
     public String home() {
+
+
+
+
         return "home";
     }
 
