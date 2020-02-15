@@ -5,5 +5,12 @@
 
 .slidingpicture{
     height:400px;
-    width:100%
+    width:100%;
+}
+
+#fixed {
+    background-image:url(/images/panda1.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    min-height: 1000px;
 }
